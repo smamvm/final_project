@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/50000/nahled/hands-in-chains.jpg");
+  background-size: 60px;
+}
+#titlefont {
+  font-family: "Teko", sans-serif;
+}
+.heading {
+  font-color: black;
+  background: #bb8adb;
+  border: 15px solid purple;
+  padding: 20px;
+}
+.regular {
+  width: 300px;
+  border: 15px solid green;
+  background: teal;
+  padding: 50px;
+  margin: 20px;
+}
+.longboy {
+  height: 100vh;
+  width: 80px;
+  margin: 0px;
+  padding: 20px;
+  position: fixed;
+  background-color: powderblue;
+  opacity: 80%;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+}
+li:first-child {
+  color: White;
+}
+li:last-child {
+  color: Black;
+}
+li {
+  color: Gray;
+}
+a:hover {
+  width: 50px;
+  border: 20px solid blue;
+  background: blue;
+}
