@@ -8,7 +8,7 @@ body {
   font-family: "Teko", sans-serif;
 }
 .heading {
-  font-color: black;
+  color: black;
   background: #bb8adb;
   border: 15px solid purple;
   padding: 20px;
